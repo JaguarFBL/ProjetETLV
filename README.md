@@ -68,7 +68,7 @@
   
 <h2>Bivennue sur l'interface de commande de votre distributeur<h2>
   
-<a href="file:///J:/Mes%20documents/Premi%C3%A8re/I2D%20Thr%C3%A9or%C3%A8le/Page%20HTML/page.html"><button>Que on-ils manger</button></a>
+<a href="https://github.com/JaguarFBL/ProjetETLV/blob/main/Que%20mange%20t'il.html"><button>Que on-ils manger</button></a>
 
 <a href="file:///J:/Mes%20documents/Premi%C3%A8re/I2D%20Thr%C3%A9or%C3%A8le/Page%20HTML/page.html"><button>Que on-ils manger</button></a>
 </div>
