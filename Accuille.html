@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Distributeur à croquette</title>
+<title>Contrôle Arduino</title>
 <style>
 
         body {
@@ -19,7 +19,7 @@
             height: 100vh;
 
             background-color: #049ed7;
-          }
+          {
        
 	   
 	   
@@ -57,22 +57,26 @@
 
         }
 </style>
-
 </head>
-
 <body>
-  
 <div class="container">
-  
 <h1></h1>
-  
 <h2>Bivennue sur l'interface de commande de votre distributeur<h2>
-  
-<a href="https://github.com/JaguarFBL/ProjetETLV/blob/main/Que%20mange%20t'il.html"><button>Que on-ils manger</button></a>
-<a href="file:///J:/Mes%20documents/Premi%C3%A8re/I2D%20Thr%C3%A9or%C3%A8le/Page%20HTML/page.html"><button>Statistiques</button></a>
-<a href="file:///J:/Mes%20documents/Premi%C3%A8re/I2D%20Thr%C3%A9or%C3%A8le/Page%20HTML/page.html"><button>Eteindre le système</button></a>
-
+<a href="file:///J:/Mes%20documents/Premi%C3%A8re/ETLV/Que%20mange%20t'il.html"><button>Que ont-ils manger</button></a>
+<a href="file:///J:/Mes%20documents/Premi%C3%A8re/ETLV/Que%20mange%20t'il.html"><button>à propos</button></a>
+<a href="file:///J:/Mes%20documents/Premi%C3%A8re/ETLV/Que%20mange%20t'il.html"><button>Paramètres système</button></a>
 </div>
+<script>
 
+        function sendCommand(state) {
+
+            fetch(`/led/${state}`)
+
+                .then(response => response.text())
+
+                .then(data => alert(data));
+
+        }
+</script>
 </body>
 </html> 
